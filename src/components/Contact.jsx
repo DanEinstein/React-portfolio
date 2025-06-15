@@ -33,7 +33,7 @@ const Contact = () => {
           <a href="https://github.com/DanEinstein" target="_blank" rel="noopener noreferrer">
             <i className="bi bi-github" style={{ fontSize: '1.8rem' }}></i>
           </a>
-          <a href="https://linkedin.com/in/dansongithuka" target="_blank" rel="noopener noreferrer">
+          <a href="https://linkedin.com/in/dansongithuka-173250330/" target="_blank" rel="noopener noreferrer">
             <i className="bi bi-linkedin" style={{ fontSize: '1.8rem' }}></i>
           </a>
           <a href="mailto:githukadanson23@gmail.com">
