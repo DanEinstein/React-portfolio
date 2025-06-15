@@ -1,0 +1,122 @@
+/* Reset and base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: #333;
+}
+
+/* Container */
+div {
+  padding: 20px;
+}
+
+/* Navbar */
+nav {
+  background-color: #222;
+  padding: 15px 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Sections */
+section {
+  margin: 40px 0;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  margin-top: 0;
+  color: #007acc;
+}
+
+/* Skills */
+ul {
+  list-style: square inside;
+  padding: 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #222;
+  color: white;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+.carousel-item img {
+  max-height: 120px;
+}
+.carousel p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+#home {
+  background-color: #f8f9fa; /* light background */
+  color: #333;
+}
+
+#home h1 {
+  font-size: 3rem;
+}
+
+#home .btn {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+}
+#home .btn:hover {
+  background-color: #0056b3; /* darker blue on hover */
+  color: white;
+}
+#home .btn:focus {
+  outline: 2px solid #0056b3; /* focus outline */
+  outline-offset: 2px;
+}
+#home .btn:active {
+  background-color: #004494; /* even darker blue on click */
+}
+#home .btn:disabled {
+  background-color: #ccc; /* gray out disabled button */
+  cursor: not-allowed;
+  color: #666;
+}
+#home .btn:disabled:hover {
+  background-color: #ccc; /* no hover effect on disabled button */
+  color: #666;
+}
+#home .btn:disabled:focus {
+  outline: none; /* no focus outline on disabled button */
+}
+#home .btn:disabled:active {
+  background-color: #ccc; /* no active effect on disabled button */
+  color: #666;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.6rem;
+  color:rgb(117, 79, 10)!important;
+}
+
+.custom-text {
+  font-weight: 500;
+  color: #212529  !important;
+  transition: color 0.3s ease;
+}
+
+.custom-text:hover {
+  color: white!important; /* Makes it dark on hover */
+}
+
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
