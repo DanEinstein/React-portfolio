@@ -4,11 +4,11 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
-import './App.css'
+import './App.css'; // ✅ Correct relative import
+
 import Contact from './components/Contact'
 import Achievements from './components/Achievements'
 import Testimonials from './components/Testimonials'
-import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
